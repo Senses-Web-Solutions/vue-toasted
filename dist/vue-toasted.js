@@ -659,7 +659,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 var Toasted = {
-    install: function install(Vue, options) {
+    install: function install(app, options) {
         if (!options) {
             options = {};
         }

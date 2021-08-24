@@ -2,7 +2,7 @@ import {Toasted as T} from './js/toast';
 import ToastComponent from './toast.vue';
 
 const Toasted = {
-    install(Vue, options) {
+    install(app, options) {
         if (!options) {
             options = {};
         }
